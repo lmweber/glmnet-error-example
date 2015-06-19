@@ -1,0 +1,15 @@
+R version 3.2.0 (2015-04-16)
+Platform: x86_64-apple-darwin13.4.0 (64-bit)
+Running under: OS X 10.9.5 (Mavericks)
+
+locale:
+[1] en_US.UTF-8/en_US.UTF-8/en_US.UTF-8/C/en_US.UTF-8/en_US.UTF-8
+
+attached base packages:
+[1] stats     graphics  grDevices utils     datasets  methods   base     
+
+other attached packages:
+[1] glmnet_2.0-2  foreach_1.4.2 Matrix_1.2-1 
+
+loaded via a namespace (and not attached):
+[1] tools_3.2.0      codetools_0.2-11 grid_3.2.0       iterators_1.0.7  lattice_0.20-31 
