@@ -4,7 +4,7 @@ glmnet error example
 Reproducible example to demonstrate possible bug in R package "glmnet" version 2.0-2.
 
 
-## Contents
+### Files
 
 - R code file containing reproducible example and information in comments: [glmnet_error_example.R](glmnet_error_example.R)
 
