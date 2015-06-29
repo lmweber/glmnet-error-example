@@ -44,12 +44,15 @@ cv.glmnet(x=X, y=Y, family="gaussian", penalty.factor=penalty, lambda=lambda)
 set.seed(4)
 cv.glmnet(x=X, y=Y, family="gaussian", penalty.factor=penalty)
 
+
 # The problem may be occurring in this line:
 # mlami = max(sapply(outlist, function(obj) min(obj$lambda)))
 # in the function "cv.elnet()".
 # If no lambda value is larger than mlami, the lambda value submitted to the predict 
 # function will be "numeric(0)", and no predictions will be generated. This seems to 
-# depend on the cross validation split, since sometimes it will work.
+# depend on the cross validation split, since sometimes it will work -- so there may be 
+# a problem with the automatic generation of lambda values in the presence of a penalty 
+# factor for certain cross validation splits.
 
 
 
