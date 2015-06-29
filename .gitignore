@@ -1,1 +1,5 @@
+# created by operating system
 .DS_Store
+
+# zip archive
+*.zip
